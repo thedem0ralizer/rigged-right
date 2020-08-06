@@ -17,7 +17,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #splash-text {
-  margin-top: 35vh;
+  margin-top: 25vh;
 }
 
 h1, h2 {

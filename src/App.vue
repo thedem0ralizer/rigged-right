@@ -24,7 +24,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body {
   font-family: 'Yellowtail', cursive;
-  background: url("./assets/pexels-boats.jpg") no-repeat center center fixed;
+  background: url("./assets/unsplash.jpg") no-repeat center center fixed;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
   -webkit-background-size: cover;
