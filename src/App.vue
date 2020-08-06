@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SplashPage msg="sup"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SplashPage from './components/SplashPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SplashPage
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+body {
+  font-family: 'Yellowtail', cursive;
+  background: url("./assets/boat-water-blue-ocean.jpg") no-repeat center center fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>
