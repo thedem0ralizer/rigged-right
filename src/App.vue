@@ -16,12 +16,26 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+
 body {
   font-family: 'Yellowtail', cursive;
   background: url("./assets/unsplash.jpg") no-repeat center center fixed;
