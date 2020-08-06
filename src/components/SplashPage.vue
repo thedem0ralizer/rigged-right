@@ -1,7 +1,7 @@
 <template>
   <div id="splash-text">
     <h1>Rigged Right, LLC</h1>
-    <p>Coming soon...</p>
+    <h2>Coming soon...</h2>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
   margin-top: 35vh;
 }
 
-h1, p {
+h1, h2 {
   color: white;
   text-shadow: 2px 2px black;
   font-weight: 200;
